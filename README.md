@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Define the README content
-readme_content = """\
 # 💼 Power BI Sales Report Dashboard
 
 This project is based on Microsoft’s official Power BI tutorial: **"From Excel workbook to stunning report in Power BI Desktop."** It demonstrates the end-to-end process of importing, transforming, analyzing, and visualizing financial data in Power BI.
@@ -44,11 +40,7 @@ The dataset is provided by Microsoft and contains sample financial data:
 
 ## 📸 Screenshots
 
-> Include 1–2 screenshots of your report pages here (if applicable).
 
-## 🔗 Resources
-
-- [Official Microsoft Tutorial](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download)
 
 ## 🚀 How to Use
 
@@ -59,7 +51,7 @@ The dataset is provided by Microsoft and contains sample financial data:
 ## 📥 Files Included
 
 - `Financial Sample.xlsx` – Excel data source
-- `Sales_Report.pbix` – Power BI report file
+- `Finance Report.pbix` – Power BI report file
 - `README.md` – Project documentation
 
 ## 📌 Author
@@ -67,11 +59,3 @@ The dataset is provided by Microsoft and contains sample financial data:
 - **Kamesh V**
 - GitHub: [@kamesh63](https://github.com/kamesh63)
 - LinkedIn: [V Kamesh](https://www.linkedin.com/in/v-kamesh-0ab95b251/)
-"""
-
-# Save the README file
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content)
-
-readme_path
-
