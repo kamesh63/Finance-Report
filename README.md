@@ -39,8 +39,7 @@ The dataset is provided by Microsoft and contains sample financial data:
 - Adding interactivity using slicers and drill-throughs
 
 ## 📸 Screenshots
-
-
+![Finance_Report](https://github.com/user-attachments/assets/68c1c74c-0ebb-423a-b851-3e921eecb69f)
 
 ## 🚀 How to Use
 
